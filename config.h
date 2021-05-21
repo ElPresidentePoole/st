@@ -5,7 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font:size=12";
+//static char *font = "CaskaydiaCove Nerd Font:size=12";
+static char *font = "Terminus:size=12";
 static int borderpx = 2;
 
 /*
