@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "CaskaydiaCove Nerd Font:size=12";
-static char *font = "Terminus:size=12";
+static char *font = "UbuntuMono Nerd Font:size=12";
+//static char *font = "Terminus:size=12";
 static int borderpx = 2;
 
 /*
@@ -94,29 +94,27 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	[0] = "#36333b", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	[1] = "#b2929a", /* red     */
-	[2] = "#576e6d", /* green   */
-	[3] = "#bbbd1e", /* yellow  */
-	[4] = "#4b515f", /* blue    */
-	[5] = "#bd1ebb", /* magenta */
-	[6] = "#4da89a", /* cyan    */
-	[7] = "#cee1ea", /* white   */
+	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	[1] = "#cc241d", /* red     */
+	[2] = "#98971a", /* green   */
+	[3] = "#d79921", /* yellow  */
+	[4] = "#458588", /* blue    */
+	[5] = "#b16286", /* magenta */
+	[6] = "#689d6a", /* cyan    */
+	[7] = "#a89984", /* white   */
 
 	/* 8 bright colors */
-	[8]  = "#4f4b56", /* black   */
-	[9]  = "#c6b0b6", /* red     */
-	[10] = "#6e8a89", /* green   */
-	[11] = "#dcde30", /* yellow  */
-	[12] = "#62697c", /* blue    */
-	[13] = "#de30dc", /* magenta */
-	[14] = "#6cbcb0", /* cyan    */
-	[15] = "#aacbdb", /* white   */
+	[8]  = "#928374", /* black   */
+	[9]  = "#fb4934", /* red     */
+	[10] = "#b8bb26", /* green   */
+	[11] = "#fabd2f", /* yellow  */
+	[12] = "#83a598", /* blue    */
+	[13] = "#d3869b", /* magenta */
+	[14] = "#8ec07c", /* cyan    */
+	[15] = "#ebdbb2", /* white   */
 };
-
 
 /*
  * Default colors (colorname index)
