@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "UbuntuMono Nerd Font:size=12";
+static char *font = "Spleen 8x16:pixelsize=16:antialias=false";
 //static char *font = "Terminus:size=12";
 static int borderpx = 2;
 
